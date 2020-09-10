@@ -217,12 +217,6 @@ h1 {
 
 /*Cafe da manhã*/
 
-.blocoRefeicoes {
-	position:relative;
-	margin:0px;
-	padding:0px;
-
-}
 .alimentos h2{
 	
 	color:white;
@@ -233,35 +227,52 @@ h1 {
 	
 	
 }
-.quadradoAlimentos{
-	
+.blocoRefeicao{
+  /*position: absolute;
+  /*transform: translate (-50%, -50%);*/
   width: 400px;
-  
+  /*height: 40px;*/
   padding: 40px;
   color: white;
   background-color: #27c527cc;
   text-align: left;
   margin: auto;
-  border-radius: 5%;
+  border-radius: 5px;
   max-width: 600px;
   align-self: center;
   display: block;
+}
 
-	
+
+.pesquisarAlimento input{
+	padding: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  margin-bottom: 30px;
 }
-.pesquisarAlimento p{
-	margin:0px;
-	padding-bottom:15px;
-	color:white;
-	font-size:20px;
-	border-bottom: solid 5px white;
-}
-.alimentosDieta p{
-	text-align:left;
+
+.blocoRefeicao h1{
+	font-size:22px;
 	color:yellow;
+  margin-bottom:10px;
 }
 
-.quadradoAlimentos input[type="submit"] {
+.blocoRefeicao p{
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+.check{
+  border-radius:100%;
+  background-color:yellow;
+  color:black;
+  position: relative;
+  margin-right:17px;
+}
+
+/*.quadradoAlimentos input[type="submit"] {
   background-color: yellow;
   color: black;
   font-family: "Roboto";
@@ -270,6 +281,7 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .blocoRefeicoes header {
 	color:white;
 	margin:0px;
@@ -313,13 +325,46 @@ h1 {
   cursor: pointer;
 }
 
-.dicas button{
+button{
   position: absolute;
   float:left;
   bottom:10px;
   left:5px;
 }
 
+/*Plano alimentar do paciente*/
+
+.blocoGrande{
+  margin:auto;
+  padding:10px;
+  margin-top:60px;
+  width:80%;
+  height:80%;
+  border-radius:3px;
+  color:white;
+  background-color:#27c527cc;
+  text-align: center;
+}
+
+.blocoColuna{
+  display:inline-block;
+  width:30%;
+  margin-left:5px;
+  margin-right: 20px;
+  margin-bottom:30px;
+  margin-top: 30px;
+}
+
+.blocoColuna h1{
+  font-size: 22px;
+  color:yellow;
+  margin-bottom: 10px;
+}
+
+.blocoColuna p{
+  font-size:20px;
+  margin-bottom: 5px;
+}
 
 
 
