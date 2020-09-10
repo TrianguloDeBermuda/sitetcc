@@ -1,0 +1,325 @@
+.bodyA{
+  background-image: url(imagens/nutri.png);
+  font-family: "Roboto", sans-serif;
+  margin:auto;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.normais{
+  margin:auto;
+  background-color: white;
+}
+
+button{
+  float:right;
+  margin-bottom:0px;
+  padding:5px;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  border:none;
+  border-radius:5px;
+  background-color:yellow;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+a {
+  font-size: 16px;
+}
+label {
+  font-size: 20px;
+}
+h1 {
+  font-size: 45px;
+}
+
+/*LOGIN*/
+
+.login {
+  /*position: absolute;
+  /*transform: translate (-50%, -50%);*/
+  width: 400px;
+  /*height: 40px;*/
+  padding: 40px;
+  color: white;
+  background-color: #27c527cc;
+  text-align: left;
+  margin: auto;
+  border-radius: 5px;
+  max-width: 600px;
+  align-self: center;
+  display: block;
+}
+.login .inputBox {
+  position: relative;
+}
+.login .inputBox input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  margin-bottom: 30px;
+}
+
+.login .inputBox label {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: 0.5s;
+  width: 100%;
+  pointer-events: none;
+}
+
+.login .inputBox input:focus ~ label,
+.login .inputBox input:valid ~ label {
+  top: -18px;
+  color: yellow;
+  font-size: 12px;
+}
+
+.login h1 {
+  font-size: 37px;
+}
+
+.login p {
+  margin: 8px 0;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 8px 0;
+}
+
+.login input[type="submit"] {
+  background-color: yellow;
+  color: black;
+  font-family: "Roboto";
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*HOME*/
+
+.home a:hover {
+  color: yellow;
+}
+
+.home {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: white;
+}
+.home h1 {
+  font-family: "Lobster", cursive;
+}
+.botao0 {
+  border: solid 1px #000000;
+  background-color: yellow;
+  height: 30px;
+  padding: 3px;
+  width: 30px;
+  text-align: right;
+}
+.home a {
+  text-decoration: none;
+  color: white;
+}
+.home a:hover {
+  color: yellow;
+}
+.home p {
+  margin-top: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+/*CADASTRO*/
+
+.widthh {
+  width: 50%;
+}
+
+.perfil {
+  position: relative;
+
+  width: 180px;
+  height: 180px;
+  align-self: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+/* O que você comeu hoje*/
+
+.cabecalho {
+  margin-top:2%;
+}
+.cabecalho h1 {
+  text-align: center;
+  color: white;
+ 
+}
+.cabecalho img{
+	position:absolute;
+	top:2%;
+	left:0.5%;
+}
+.cabecalho p{
+	position:absolute;
+	top:19%;
+	left:2%;
+	color:white;
+	font-size:16px;
+  margin:0px;
+  display:block;
+}
+
+.refeicoes{
+  text-align: center;
+  color:white;
+  width:1000px;
+  margin:auto;
+  margin-top: 80px;
+}
+
+.refeicoes ul a{
+  text-decoration:none;
+  display: inline-block;
+	background-color:#27c527cc;
+	border-radius:3px;
+	max-width:200px;
+	max-height:200px;
+	padding: 10px;
+	margin:0px 10px 10px 10px;
+  text-align: center;
+  color:white;
+}
+
+/*Cafe da manhã*/
+
+.blocoRefeicoes {
+	position:relative;
+	margin:0px;
+	padding:0px;
+
+}
+.alimentos h2{
+	
+	color:white;
+	font-size:20px;
+	position:relative;
+	top:0px;
+	left:0px;
+	
+	
+}
+.quadradoAlimentos{
+	
+  width: 400px;
+  
+  padding: 40px;
+  color: white;
+  background-color: #27c527cc;
+  text-align: left;
+  margin: auto;
+  border-radius: 5%;
+  max-width: 600px;
+  align-self: center;
+  display: block;
+
+	
+}
+.pesquisarAlimento p{
+	margin:0px;
+	padding-bottom:15px;
+	color:white;
+	font-size:20px;
+	border-bottom: solid 5px white;
+}
+.alimentosDieta p{
+	text-align:left;
+	color:yellow;
+}
+
+.quadradoAlimentos input[type="submit"] {
+  background-color: yellow;
+  color: black;
+  font-family: "Roboto";
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.blocoRefeicoes header {
+	color:white;
+	margin:0px;
+}
+
+/*Dicas do nutri*/
+
+.dicas{
+	align-items: center;
+	max-width: 80%;
+	margin:auto;
+	margin-top:80px;
+}
+
+.dicas a{
+	color:white;
+}
+
+.dicas ul{
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px 70px 0px 70px;
+}
+
+.dicas ul li{
+	display: inline-block;
+	background-color:#27c527cc;
+	border-radius:3px;
+	max-width:200px;
+	max-height:200px;
+	padding: 10px;
+	margin:0px 10px 10px 10px;
+  text-align: center;
+  color:white;
+	
+}
+
+.dicas li:hover{
+	background-color:grey;
+  cursor: pointer;
+}
+
+.dicas button{
+  position: absolute;
+  float:left;
+  bottom:10px;
+  left:5px;
+}
+
+
+
+

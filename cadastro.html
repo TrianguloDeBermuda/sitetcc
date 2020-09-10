@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Nutri</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: white;">
+    <header>
+      <div class="login" style="width: 800px;">
+        <h1 style="text-align: center;"><strong>Cadastro</strong><br /></h1>
+        <form>
+          <div class="inputBox widthh">
+            <input type="text" name="nome" placeholder="" required="" />
+            <label for="nome">Nome:</label>
+          </div>
+          <div class="inputBox widthh">
+            <input type="text" name="telefone" placeholder="" required="" />
+            <label for="telefone">Telefone:</label>
+          </div>
+          <div class="inputBox widthh">
+            <input
+              type="text"
+              name="DataDeNascimento"
+              placeholder=""
+              required=""
+            />
+            <label for="dataDeNascimento">Data de nascimento:</label>
+          </div>
+          <div class="inputBox widthh">
+            <input type="text" name="email" placeholder="" required="" />
+            <label for="email">E-mail:</label>
+          </div>
+          <div class="inputBox widthh">
+            <input type="password" name="senha" placeholder="" required="" />
+            <label for="senha">Senha:</label>
+          </div>
+          <img class="perfil" src="imagens/usuario.png" alt="fotoperfil" />
+          <input type="submit" onclick="document.location='cadastro2.html'" value="Enviar" />
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
